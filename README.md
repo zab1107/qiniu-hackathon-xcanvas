@@ -2,8 +2,8 @@
 
 七牛第五届 1024 Hackathon 作品仓库。
 
-- 赛道：（研发 / 非研发）
-- 议题：xcanvas
+- 议题：用 XCanvas 制作《琅琊榜》第一集
+- 作品：麒麟才子
 - 成员：
   - zab1107
   - zhaohongqiang0144
@@ -12,11 +12,15 @@
 
 ## 如何运行
 
-1. 安装依赖
-2. 启动命令
-3. 打开访问地址
+这不是前后端服务，评委按下面复现即可。
 
-> 项目骨架搭好后，把上面 3 行替换成真实命令。
+1. 打开 Demo 视频：https://github.com/zab1107/qiniu-hackathon-xcanvas/releases/download/v1.0.0/qilin-demo-720p.mp4
+2. 阅读剧本和角色卡：`docs/script.md`、`docs/characters.md`
+3. 打开 XCanvas：https://dev-aicanvas.qnlinking.com/
+4. 按 `docs/shots.md` 和 `docs/timeline.json` 生成并拼接 28 段分镜
+5. 需要重导出时，按 `docs/reproduce.md` 把草稿导入剪映
+
+详细步骤见 `docs/reproduce.md`。
 
 ## 演示
 
@@ -36,9 +40,14 @@
 ## codebase 说明
 
 - 是否有 codebase：无
-- 基线 tag：无（如果后续导入现成代码，必须在写任何新代码前打 `v0`）
+- 基线 tag：无
 
 ## 文档
 
 - 架构设计：`docs/architecture.md`
+- 剧本：`docs/script.md`
+- 角色卡：`docs/characters.md`
+- 分镜表：`docs/shots.md`
+- 复现步骤：`docs/reproduce.md`
+- 时间轴：`docs/timeline.json`
 - PR 模板：`.github/PULL_REQUEST_TEMPLATE.md`

@@ -20,9 +20,11 @@
 
 ## 演示
 
-- Demo 视频：
-- 部署方式：本地 / 云端
-- 演示账号：
+- Demo 视频（720p）：https://github.com/zab1107/qiniu-hackathon-xcanvas/releases/download/v1.0.0/qilin-demo-720p.mp4
+- 备用（480p）：https://github.com/zab1107/qiniu-hackathon-xcanvas/releases/download/v1.0.0/qilin-demo-480p.mp4
+- Release 页面：https://github.com/zab1107/qiniu-hackathon-xcanvas/releases/tag/v1.0.0
+- 部署方式：XCanvas 生成分镜 + 剪映成片
+- 演示账号：无
 
 ## 协作约定
 
